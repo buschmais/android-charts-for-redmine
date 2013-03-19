@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="graph_text_size_small">10dp</dimen>
+    <dimen name="graph_text_size_medium">12dp</dimen>
+    <dimen name="graph_active_element_stroke_size">3dp</dimen>
+    
+    <dimen name="checkbox_padding_left_offset">24dp</dimen>
+
+</resources>

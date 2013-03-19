@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<item name="tagProjectItemViewHolder" type="id" />
+   	<item name="tagProjectItemProject" type="id" />
+   	<item name="tagIssueItemViewHolder" type="id" />
+   	<item name="tagIssueItemIssue" type="id" />
+</resources>

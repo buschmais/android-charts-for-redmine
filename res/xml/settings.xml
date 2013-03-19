@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<EditTextPreference 
+	    android:key="redminUrl"
+	    android:title="@string/settings_redmine_url_title"
+	    android:summary="@string/settings_redmine_url_summary"
+	    android:inputType="textUri" />
+	
+	<EditTextPreference 
+	    android:key="username"
+	    android:title="@string/settings_user_name_title"
+	    android:summary="@string/settings_user_name_summary" />
+    
+</PreferenceScreen>

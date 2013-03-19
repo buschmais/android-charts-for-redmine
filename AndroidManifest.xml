@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.buschmais.mobile.redmine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="de.buschmais.mobile.redmine.RedmineMobileApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.MainActivity"
+            android:label="@string/main_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.SettingsActivity"
+            android:label="@string/settings_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.projects.ProjectsActivity"
+            android:label="@string/projects_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.issues.IssuesActivity"
+            android:label="@string/issues_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.projects.ProjectsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.projects.ProjectsActivity" />
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.issues.IssuesPerStatusActivity"
+            android:label="@string/issues_per_status_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.issues.IssuesPerAssigneeActivity"
+            android:label="@string/issues_per_assignee_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.buschmais.mobile.redmine.view.issues.IssuesPerStatusAndAssigneeActivity"
+            android:label="@string/issues_per_status_and_assignee_title"
+            android:parentActivityName="de.buschmais.mobile.redmine.view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.buschmais.mobile.redmine.view.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general -->
+    <string name="app_name">RedmineMobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="general_error_no_network">Your device is not connected to the network. Please connect it.</string>
+    <string name="general_error_invalid_credentials">The provided user name and password are invalid.</string>
+    <string name="general_error_invalid_url">The given Redmine URL is invalid. Please check the URL.</string>
+    <string name="general_error_general">The was a technical error. Please try again later.</string>
+    <!-- main activity -->
+    <string name="main_title">RedmineMobile</string>
+    <string name="main_redmin_url">Redmine URL:</string>
+    <string name="main_user_name">User name:</string>
+    <string name="main_password">Password:</string>
+    <string name="main_connect">Connect</string>
+    <string name="main_todo">Use the settings menu to edit Redmine URL and user name. A dialog will be shown to enter the password.</string>
+    <string name="main_error_empty_parameter">URL and user name must not be empty.</string>
+    <!-- dialog password -->
+    <string name="dialog_password_title">Enter a password.</string>
+    <string name="dialog_password_ok">OK</string>
+    <string name="dialog_password_cancel">Cancel</string>
+    <string name="dialog_password_temporarily_store_password">Temporarily keep the password. The password will be erased if you close the application.</string>
+    <!-- settings activity -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_not_set">(empty)</string>
+    <string name="settings_redmine_url_title">Redmine URL</string>
+    <string name="settings_redmine_url_summary">The URL to the redmine system you want to examine. E.g.: http://demo.redmine.org</string>
+    <string name="settings_user_name_title">User name</string>
+    <string name="settings_user_name_summary">The user name that should be used to login to the redmine system.</string>
+    <string name="settings_user_password_title">Password</string>
+    <string name="settings_user_password_summary">The password that should be used to login to the redmine system.</string>
+    <!-- projects activity -->
+    <string name="projects_title">Projects</string>
+    <string name="projects_empty">No projects found to display.</string>
+    <string name="projects_item_name">Name:</string>
+    <string name="projects_item_description">Description:</string>
+    <string name="projects_item_created">Created:</string>
+    <string name="projects_item_updated">Updated:</string>
+    <string name="projects_loading">Loading projects, please wait.</string>
+    <string name="projects_filter_hint">Type to filter for name, id or identifier.</string>
+    <!-- issues activity -->
+    <string name="issues_title">Issues</string>
+    <string name="issues_per_status_title">Issues per status</string>
+    <string name="issues_per_assignee_title">Issues per assignee</string>
+    <string name="issues_per_status_and_assignee_title">Issues per status and assignee</string>
+    <string name="issues_overview_title">Overview of all project issues</string>
+    <string name="issues_overview_chart_title">Number of issues per status.</string>
+    <string name="issues_details_title">Selected issues in detail</string>
+    <string name="issues_details_chart_title">Issues per user.</string>
+    <string name="issues_details_chart_x_title">Assignee/Author</string>
+    <string name="issues_details_chart_y_title">Count</string>
+    <string name="issues_item_status">Status:</string>
+    <string name="issues_item_priority">Priority:</string>
+    <string name="issues_item_assignee">Assignee:</string>
+    <string name="issues_item_author">Author:</string>
+    <string name="issues_item_created">Created:</string>
+    <string name="issues_item_updated">Updated:</string>
+    <string name="issues_loading">Loading issues, please wait.</string>
+    <string name="issues_error_general">Error loading issues. Please try again later.</string>
+    <string name="issues_dialog_close">Close</string>
+    <string name="issues_status_new">New</string>
+    <string name="issues_status_new_details">New (%d)</string>
+    <string name="issues_status_in_progress">In progress</string>
+    <string name="issues_status_in_progress_details">In progress (%d)</string>
+    <string name="issues_status_resolved">Resolved</string>
+    <string name="issues_status_resolved_details">Resolved (%d)</string>
+    <string name="issues_status_feedback">Feedback</string>
+    <string name="issues_status_feedback_details">Feedback (%d)</string>
+    <string name="issues_status_closed">Closed</string>
+    <string name="issues_status_closed_details">Closed (%d)</string>
+    <string name="issues_status_rejected">Rejected</string>
+    <string name="issues_status_rejected_details">Rejected (%d)</string>
+    <string name="issues_status_unknown">Unknown</string>
+    <string name="issues_per_assignee_selected_status">Selected status: %s</string>
+    <string name="issues_project">Project:</string>
+    <string name="issues_status">Status:</string>
+    <string name="issues_assignee">Assignee:</string>
+    <string name="title_activity_slider">SliderActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

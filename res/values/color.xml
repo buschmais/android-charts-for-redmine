@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+    <color name="color_status_new">#991F8A</color>
+    <color name="color_status_new_t">#33991F8A</color>
+    <color name="color_status_in_progress">#CC92C5</color>
+    <color name="color_status_in_progress_t">#33CC92C5</color>
+    <color name="color_status_resolved">#CE99FF</color>
+    <color name="color_status_resolved_t">#33CE99FF</color>
+    <color name="color_status_feedback">#FFF69F</color>
+    <color name="color_status_feedback_t">#33FFF69F</color>
+    <color name="color_status_closed">#CCB554</color>
+    <color name="color_status_closed_t">#33CCB554</color>
+    <color name="color_status_rejected">#CC8954</color>
+    <color name="color_status_rejected_t">#33CC8954</color>
+     -->
+    <color name="color_status_new">#74BC00</color>
+    <color name="color_status_new_t">#74BC00</color>
+    <color name="color_status_in_progress">#40D30B</color>
+    <color name="color_status_in_progress_t">#40D30B</color>
+    <color name="color_status_resolved">#C9B70A</color>
+    <color name="color_status_resolved_t">#C9B70A</color>
+    <color name="color_status_feedback">#FA6119</color>
+    <color name="color_status_feedback_t">#FA6119</color>
+    <color name="color_status_closed">#ED940C</color>
+    <color name="color_status_closed_t">#ED940C</color>
+    <color name="color_status_rejected">#E3700B</color>
+    <color name="color_status_rejected_t">#E3700B</color>
+    
+    <color name="color_active_element_stroke">#FF0000</color>
+    <color name="color_active_element_fill">#99FF0000</color>
+</resources>
